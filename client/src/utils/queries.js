@@ -9,9 +9,9 @@ export const QUERY_ME = qgl`
             saveBooks {
                 bookId
                 authors
-                description
-                title
                 image
+                title
+                description
                 link
             }
         }
