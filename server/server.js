@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const db = require('./config/connection');
-
+const routes = require('./routes/index');
 // import ApolloServer
 const { ApolloServer } = require('apollo-server-express');
 const { authMiddleware } = require('./utils/auth');
@@ -36,6 +36,6 @@ app.get('*', (req, res) => {
 db.once('open', () => {
   app.listen(PORT, () => {
     console.log(`🌍 Now listening on localhost:${PORT}`);
-    console.log(`Use Graphl at http://localhose:${PORT}${server.graphqlPath}`);
+    console.log(`Use GraphQl at http://localhost:${PORT}${server.graphqlPath}`);
   });
 });
