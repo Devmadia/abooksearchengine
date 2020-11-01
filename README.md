@@ -22,17 +22,27 @@ Upon successful deployment of the server, the application will run locally on th
 
 Within the application, either run on the website or from the extension download available, a user can then utilize the application for their own purposes regarding the saving of books through the Google Books API to read or purchase at a later date.
 
-The following screenshot is the fully deployed website available here: [link]]
+The following screenshot is the fully deployed website available here: https://grisly-treat-69547.herokuapp.com/
 
-![ABookSearch Main Image](directory/path)
+![ABookSearch Main Image](demoshots/Main000.png)
 
-Text
+Upon first visit, a user will see the above and need to make an account to fully utilize the web application services.
 
-![ABookSearch Demo Shot](directory/path)
+![ABookSearch Demo Shot](demoshots/Main001.png)
 
-Text
+User is greeted with the ability to Login if an account already exists.
 
-![ABookSearch Saved Demo Shot](directory/path)
+![ABookSearch Saved Demo Shot](demoshots/Main002.png)
+
+First time visitors will find the signup form easy to read and upon successful account creation, they are automatically ported to the logged in site for ease of use. Passwords are hidden from view for an added layer of security.
+
+![ABookSearch Demo Shot](demoshots/Main003.png)
+
+Users can then search for their choice of books and select an easy to see blue button to `Save This Book!` to their profile. Confirmation of a book being saved is rendered by the button updating to say `Book Already Saved!`. Users will need to navigate to their profile to remove books from their list.
+
+![ABookSearch Saved Demo Shot](demoshots/Main004.png)
+
+Once done with their search, a user may review items by selecting the `See Your Books` link at the top right corner. It will redirect to a page with a count of how many books are displayed below. To remove a book from the profile's list, users can click the red button `Delete this Book!`.
 
 ## License
 This project is covered by the MIT license. 
